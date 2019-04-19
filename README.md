@@ -6,16 +6,16 @@
 
 # Screenshots
 
-[<img alt='Vetzy' src="https://assets.materialup.com/uploads/6c70b570-f92d-4a30-acb9-78105e279cfb/preview.jpg">](https://github.com/jbagaresgaray/vetzy/releases)
+!['Vetzy'](https://assets.materialup.com/uploads/6c70b570-f92d-4a30-acb9-78105e279cfb/preview.jpg)
 
-[<img alt='Vetzy' src="https://assets.materialup.com/uploads/72d60b63-96fb-4e05-8b6b-039a26fd90b2/attachment.jpg">](https://github.com/jbagaresgaray/vetzy/releases)
+!['Vetzy'](https://assets.materialup.com/uploads/72d60b63-96fb-4e05-8b6b-039a26fd90b2/attachment.jpg)
 
-[<img alt='Vetzy' src="https://assets.materialup.com/uploads/b4dd2393-7d66-4ddb-8c9d-9b935be810e0/attachment.jpg">](https://github.com/jbagaresgaray/vetzy/releases)
+!['Vetzy'](https://assets.materialup.com/uploads/b4dd2393-7d66-4ddb-8c9d-9b935be810e0/attachment.jpg)
 
-[<img alt='Vetzy' src="https://assets.materialup.com/uploads/8569ab55-5773-41bb-8895-79525151e8c8/attachment.jpg">](https://github.com/jbagaresgaray/vetzy/releases)
+!['Vetzy'](https://assets.materialup.com/uploads/8569ab55-5773-41bb-8895-79525151e8c8/attachment.jpg)
 
-[<img alt='Vetzy' src="https://assets.materialup.com/uploads/fa38259c-2e7f-4aa4-be36-ecd4cf909aae/attachment.jpg">](https://github.com/jbagaresgaray/vetzy/releases)
-[<img alt='Vetzy' src="https://assets.materialup.com/uploads/c7dfbdf2-b1f0-406a-b30a-965b7b73d8ea/attachment.jpg">](https://github.com/jbagaresgaray/vetzy/releases)
+!['Vetzy'](https://assets.materialup.com/uploads/fa38259c-2e7f-4aa4-be36-ecd4cf909aae/attachment.jpg)
+!['Vetzy'](https://assets.materialup.com/uploads/c7dfbdf2-b1f0-406a-b30a-965b7b73d8ea/attachment.jpg)
 
 ## Downloads
 > Downloads can be found on the [releases page](https://github.com/jbagaresgaray/vetzy/releases)
