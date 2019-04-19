@@ -1,4 +1,18 @@
-.welcome-card ion-img {
-  max-height: 35vh;
-  overflow: hidden;
+app-home {
+  .home-card {
+    -webkit-margin-start: 0 !important;
+    margin-inline-start: 0 !important;
+    -webkit-margin-end: 0 !important;
+    margin-inline-end: 0 !important;
+    border-radius: 12px !important;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+
+    ion-img {
+      margin: 0 auto;
+      display: block;
+      padding: 20px;
+      height: 125px;
+    }
+  }
 }

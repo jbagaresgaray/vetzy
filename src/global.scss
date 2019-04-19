@@ -9,3 +9,26 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+
+html,
+body,
+ion-content {
+    --ion-background: #fcfcfd;
+    background: #fcfcfd;
+}
+
+ion-toolbar:last-child {
+    --border-width: 0 0 0 !important;
+}
+
+.menu-list-user {
+    .menu-user {
+        border-bottom: 1px solid var(--ion-color-primary);
+
+        ion-avatar {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
