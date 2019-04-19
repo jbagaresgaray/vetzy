@@ -32,3 +32,14 @@ ion-toolbar:last-child {
         }
     }
 }
+
+.menu-content {
+    // --background: url("./assets/img/sidebottom.png") fixed no-repeat bottom left;
+    // background-size: 50% auto;
+    // background-attachment: fixed;
+    --background: none;
+    background-image: url('./assets/img/sidebottom.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
