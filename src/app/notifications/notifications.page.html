@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Notification</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <ion-card class="card-notifications" (click)="viewNotification()">
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+      </ion-avatar>
+      <ion-label text-wrap>
+        <h3>Dr. Andrew <small>Schedule appointment at afternoon.</small></h3>
+        <p>12:30</p>
+        <small>2 Hours ago</small>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card class="card-notifications" (click)="viewNotification()">
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+      </ion-avatar>
+      <ion-label text-wrap>
+        <h3>Dr. Annie <small>received payment successfully.</small></h3>
+        <small>3 Hours ago</small>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card class="card-notifications" (click)="viewNotification()">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+        </ion-avatar>
+        <ion-label text-wrap>
+          <h3>Dr. Andrew <small>Schedule appointment at afternoon.</small></h3>
+          <p>12:30</p>
+          <small>2 Hours ago</small>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+    <ion-card class="card-notifications" (click)="viewNotification()">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+        </ion-avatar>
+        <ion-label text-wrap>
+          <h3>Dr. Annie <small>received payment successfully.</small></h3>
+          <small>3 Hours ago</small>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+</ion-content>

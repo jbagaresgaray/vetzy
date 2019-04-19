@@ -24,6 +24,11 @@ export class AppComponent {
       title: "Settings",
       url: "/list",
       icon: "ios-settings"
+    },
+    {
+      title: "About",
+      url: "/about",
+      icon: "information-circle-outline"
     }
   ];
 

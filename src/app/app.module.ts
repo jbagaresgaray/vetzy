@@ -14,19 +14,31 @@ import { ListPageModule } from "./list/list.module";
 import { AboutPageModule } from "./about/about.module";
 import { RecentCheckupPageModule } from "./recent-checkup/recent-checkup.module";
 import { SettingsPageModule } from "./settings/settings.module";
+import { DoctorsPageModule } from "./doctors/doctors.module";
+import { AppointmentPageModule } from "./appointment/appointment.module";
+import { BookingPageModule } from "./booking/booking.module";
+import { NotificationsPageModule } from "./notifications/notifications.module";
+import { AppNotificationPageModule } from "./app-notification/app-notification.module";
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(),
+    IonicModule.forRoot({
+      backButtonText: ""
+    }),
     AppRoutingModule,
     HomePageModule,
     ListPageModule,
     AboutPageModule,
     RecentCheckupPageModule,
-    SettingsPageModule
+    SettingsPageModule,
+    DoctorsPageModule,
+    AppointmentPageModule,
+    BookingPageModule,
+    NotificationsPageModule,
+    AppNotificationPageModule
   ],
   providers: [
     StatusBar,

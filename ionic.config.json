@@ -1,5 +1,7 @@
 {
   "name": "vetzy",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

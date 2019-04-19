@@ -43,3 +43,9 @@ ion-toolbar:last-child {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.modal-notification {
+    background-color: rgba(0, 0, 0, .5) !important;
+    transition: opacity .25s ease-in-out;
+    padding-top: 60vh;
+}

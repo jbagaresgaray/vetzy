@@ -1,0 +1,25 @@
+app-doctors {
+    ion-toolbar {
+        ion-button {
+            ion-badge {
+                position: absolute;
+                top: -0.2rem;
+                right: -0.2rem;
+                opacity: 0.9;
+                border: 1px solid #fff;
+
+                &~ion-icon {
+                    margin-right: 1.2rem;
+                }
+            }
+        }
+    }
+
+    .card-doctor {
+        ion-thumbnail {
+            img {
+                border-radius: 10px;
+            }
+        }
+    }
+}

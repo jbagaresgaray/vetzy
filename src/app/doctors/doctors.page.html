@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Doctor</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="viewNotifications()">
+        <ion-icon slot="icon-only" name="notifications"></ion-icon>
+        <ion-badge>3</ion-badge>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+  <ion-card class="card-doctor">
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+      </ion-thumbnail>
+      <ion-label text-wrap>
+        <h2>Dr. Andrew Fleming</h2>
+        <p>Dog Specialist (3years Exp)</p>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dignissimos quos voluptatem eos.</small>
+      </ion-label>
+    </ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-button fill="outline" expand="block" size="small">View Profile</ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button expand="block" size="small" (click)="appointDoctor()">Book Appointment</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+  <ion-card class="card-doctor">
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+      </ion-thumbnail>
+      <ion-label text-wrap>
+        <h2>Dr. Andrew Fleming</h2>
+        <p>Dog Specialist (3years Exp)</p>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dignissimos quos voluptatem eos.</small>
+      </ion-label>
+    </ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-button fill="outline" expand="block" size="small">View Profile</ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button expand="block" size="small" (click)="appointDoctor()">Book Appointment</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+  <ion-card class="card-doctor">
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+      </ion-thumbnail>
+      <ion-label text-wrap>
+        <h2>Dr. Andrew Fleming</h2>
+        <p>Dog Specialist (3years Exp)</p>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dignissimos quos voluptatem eos.</small>
+      </ion-label>
+    </ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-button fill="outline" expand="block" size="small">View Profile</ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button expand="block" size="small" (click)="appointDoctor()">Book Appointment</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+</ion-content>

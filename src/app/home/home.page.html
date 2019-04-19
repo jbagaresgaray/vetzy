@@ -7,7 +7,7 @@
       Vetzy
     </ion-title>
     <ion-buttons slot="end">
-      <ion-button>
+      <ion-button (click)="viewNotifications()">
         <ion-icon slot="icon-only" name="notifications-outline"></ion-icon>
         <ion-badge>3</ion-badge>
       </ion-button>
@@ -16,13 +16,10 @@
 </ion-header>
 
 <ion-content>
-  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
-    <ion-refresher-content></ion-refresher-content>
-  </ion-refresher>
   <ion-grid>
     <ion-row padding-top>
       <ion-col size="6">
-        <ion-card class="home-card">
+        <ion-card class="home-card" (click)="viewDoctors()">
           <ion-img src="./assets/img/dog.png"></ion-img>
           <ion-card-subtitle text-center padding>
             <ion-label color="primary">Dog</ion-label>
@@ -30,7 +27,7 @@
         </ion-card>
       </ion-col>
       <ion-col size="6">
-        <ion-card class="home-card">
+        <ion-card class="home-card" (click)="viewDoctors()">
           <ion-img src="./assets/img/cat.png"></ion-img>
           <ion-card-subtitle text-center padding>
             <ion-label color="primary">Cat</ion-label>
@@ -38,7 +35,7 @@
         </ion-card>
       </ion-col>
       <ion-col size="6">
-        <ion-card class="home-card">
+        <ion-card class="home-card" (click)="viewDoctors()">
           <ion-img src="./assets/img/turtle.png"></ion-img>
           <ion-card-subtitle text-center padding>
             <ion-label color="primary">Turtle</ion-label>
@@ -46,7 +43,7 @@
         </ion-card>
       </ion-col>
       <ion-col size="6">
-        <ion-card class="home-card">
+        <ion-card class="home-card" (click)="viewDoctors()">
           <ion-img src="./assets/img/rabbit.png"></ion-img>
           <ion-card-subtitle text-center padding>
             <ion-label color="primary">Bunny</ion-label>
@@ -54,7 +51,7 @@
         </ion-card>
       </ion-col>
       <ion-col size="6">
-        <ion-card class="home-card">
+        <ion-card class="home-card" (click)="viewDoctors()">
           <ion-img src="./assets/img/squirrel.png"></ion-img>
           <ion-card-subtitle text-center padding>
             <ion-label color="primary">Squirrel</ion-label>
