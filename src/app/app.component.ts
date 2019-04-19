@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 
-import { Platform } from "@ionic/angular";
+import { Platform, AlertController } from "@ionic/angular";
 import { SplashScreen } from "@ionic-native/splash-screen/ngx";
 import { StatusBar } from "@ionic-native/status-bar/ngx";
 
@@ -17,12 +17,12 @@ export class AppComponent {
     },
     {
       title: "Recent Checkup",
-      url: "/list",
+      url: "/recent-checkup",
       icon: "md-time"
     },
     {
       title: "Settings",
-      url: "/list",
+      url: "/settings",
       icon: "ios-settings"
     },
     {
@@ -34,6 +34,7 @@ export class AppComponent {
 
   constructor(
     private platform: Platform,
+    private alertController: AlertController,
     private splashScreen: SplashScreen,
     private statusBar: StatusBar
   ) {
@@ -45,5 +46,30 @@ export class AppComponent {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
+  }
+
+  async logoutApp() {
+    const alert = await this.alertController.create({
+      header: "Confirm!",
+      message: "Confirm to logout the app?",
+      buttons: [
+        {
+          text: "Cancel",
+          role: "cancel",
+          cssClass: "secondary",
+          handler: blah => {
+            console.log("Confirm Cancel: blah");
+          }
+        },
+        {
+          text: "Confirm",
+          handler: () => {
+            console.log("Confirm Okay");
+          }
+        }
+      ]
+    });
+
+    await alert.present();
   }
 }

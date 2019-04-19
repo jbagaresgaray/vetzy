@@ -29,10 +29,23 @@ const routes: Routes = [
     path: "doctors",
     loadChildren: "./doctors/doctors.module#DoctorsPageModule"
   },
-  { path: 'notifications', loadChildren: './notifications/notifications.module#NotificationsPageModule' },
-  { path: 'appointment', loadChildren: './appointment/appointment.module#AppointmentPageModule' },
-  { path: 'booking', loadChildren: './booking/booking.module#BookingPageModule' },
-  { path: 'app-notification', loadChildren: './app-notification/app-notification.module#AppNotificationPageModule' }
+  {
+    path: "notifications",
+    loadChildren: "./notifications/notifications.module#NotificationsPageModule"
+  },
+  {
+    path: "appointment",
+    loadChildren: "./appointment/appointment.module#AppointmentPageModule"
+  },
+  {
+    path: "booking",
+    loadChildren: "./booking/booking.module#BookingPageModule"
+  },
+  {
+    path: "app-notification",
+    loadChildren:
+      "./app-notification/app-notification.module#AppNotificationPageModule"
+  }
 ];
 
 @NgModule({

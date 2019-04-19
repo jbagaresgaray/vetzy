@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from "@angular/core";
 
 @Component({
-  selector: 'app-recent-checkup',
-  templateUrl: './recent-checkup.page.html',
-  styleUrls: ['./recent-checkup.page.scss'],
+  selector: "app-recent-checkup",
+  encapsulation: ViewEncapsulation.None,
+  templateUrl: "./recent-checkup.page.html",
+  styleUrls: ["./recent-checkup.page.scss"]
 })
 export class RecentCheckupPage implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
